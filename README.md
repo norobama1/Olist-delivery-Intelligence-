@@ -4,6 +4,10 @@ Predicting late deliveries on the Brazilian Olist marketplace. The goal is to un
 
 **Dataset:** [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — 110k+ delivered orders across 2016–2018.
 
+Predicts late deliveries on a Brazilian e-commerce marketplace before orders even ship, using a cost-weighted XGBoost model (51% recall on high-risk orders) trained on 110k+ orders. Includes SHAP explainability, a Power BI dashboard, a Dockerized FastAPI prediction service, and a semantic search layer over customer reviews.
+
+Read the full business case study →
+
 ---
 
 ## Project Structure
